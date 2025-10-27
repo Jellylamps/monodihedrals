@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/monodihedrals/static/css/main.e218638d.css",
+    "main.js": "/monodihedrals/static/js/main.ff214e5b.js",
+    "index.html": "/monodihedrals/index.html",
+    "main.e218638d.css.map": "/monodihedrals/static/css/main.e218638d.css.map",
+    "main.ff214e5b.js.map": "/monodihedrals/static/js/main.ff214e5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e218638d.css",
+    "static/js/main.ff214e5b.js"
+  ]
+}
