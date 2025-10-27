@@ -1,0 +1,18 @@
+.text-block {
+    width: 90%;
+    margin: 40px auto;
+    background: var(--block);
+    padding: 20px;
+    border: 2px solid var(--text);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.text-block li {
+    margin: 10px;
+}
+
+.faded {
+    color: var(--faded);
+    padding: 4px 8px;
+}

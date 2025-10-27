@@ -1,0 +1,21 @@
+section.always {
+    justify-content: left;
+}
+
+section.always section {
+    max-width: calc(50%);
+    text-align: center;
+}
+
+section.always section img {
+    display: block;
+    max-width: calc(min(90%, 250px));
+    margin: auto;
+}
+
+
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+    section.always section {
+        min-width: 30%;
+    }
+}

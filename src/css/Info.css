@@ -1,0 +1,16 @@
+.info {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.info p {
+    margin: 8px auto;
+}
+
+.spotlight {
+    max-width: 400px;
+}
+
+.dense {
+    margin: 10px auto;
+}

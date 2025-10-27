@@ -1,0 +1,58 @@
+#borgar {
+    margin: 30px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+#borgar div {
+    height: 3px;
+    width: 30px;
+    margin-top: 5px;
+    background-color: var(--text);
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+#pages {
+    background: var(--block);
+    border-bottom: 2px solid var(--text);
+}
+
+#pages ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#pages li {
+    text-align: center;
+    flex: 1;
+}
+
+#pages a {
+    color: var(--text);
+}
+
+#selection div {
+    padding: 5px 15px;
+    border: 1px solid var(--block);
+}
+
+#selection div.current {
+    background: var(--background);
+    border-radius: 10px;
+    border: 1px solid var(--text);
+}
+
+
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+    #pages {
+        padding: 0 10%;
+        margin: 0;
+    }
+
+    #pages a {
+        padding: 5px;
+    }
+}

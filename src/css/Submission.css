@@ -1,0 +1,26 @@
+textarea {
+    width: 90%;
+    min-height: 300px;
+    border: 1px solid var(--text);
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    padding: 3px 10px;
+    resize: none;
+    overflow-y: scroll;
+}
+
+form button {
+    margin-left: calc(50% - (56.69px / 2));
+}
+
+.short-input {
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#submission-result {
+    text-align: center;
+    margin-top: 15px;
+}
