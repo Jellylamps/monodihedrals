@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/monodihedrals/static/css/main.ebdfce72.css",
-    "main.js": "/monodihedrals/static/js/main.ff214e5b.js",
+    "main.css": "/monodihedrals/static/css/main.46538eca.css",
+    "main.js": "/monodihedrals/static/js/main.b787cb40.js",
     "index.html": "/monodihedrals/index.html",
-    "main.ebdfce72.css.map": "/monodihedrals/static/css/main.ebdfce72.css.map",
-    "main.ff214e5b.js.map": "/monodihedrals/static/js/main.ff214e5b.js.map"
+    "main.46538eca.css.map": "/monodihedrals/static/css/main.46538eca.css.map",
+    "main.b787cb40.js.map": "/monodihedrals/static/js/main.b787cb40.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebdfce72.css",
-    "static/js/main.ff214e5b.js"
+    "static/css/main.46538eca.css",
+    "static/js/main.b787cb40.js"
   ]
 }
