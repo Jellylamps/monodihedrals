@@ -17,7 +17,7 @@
 
 
 @media only screen and (orientation: landscape) and (min-width: 768px) {
-    img {
+    #info img {
         max-width: 90%;
     }
 }

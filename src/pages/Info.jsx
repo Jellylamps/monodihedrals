@@ -30,7 +30,7 @@ const Info = () => {
     return (
         <main id="info">
             <h1>Crimped Tetrahedron</h1>
-            <img className="spotlight" src="https://jellylamps.github.io/csce242/projects/json/images/CTetra.jpg" alt="a crimped tetrahedron"/>
+            <iframe title="3d" width="400" height="400" src="https://3dviewer.net/embed.html#model=https://raw.githubusercontent.com/Jellylamps/jellylamps.github.io/main/csce242/projects/3d/CrimpedTetrahedron.stl$camera=55.18354,31.01423,48.93408,0.00000,0.00000,0.00000,0.00000,1.00000,0.00000,45.00000$projectionmode=perspective$envsettings=fishermans_bastion,off$backgroundcolor=255,255,255,0$defaultcolor=200,200,200$defaultlinecolor=100,100,100$edgesettings=on,0,0,0,2"></iframe>
             <TextBlock content={data} />
             <TextBlock content={families} />
             <TextBlock content={trivia} />
