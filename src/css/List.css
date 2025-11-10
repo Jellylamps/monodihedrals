@@ -3,21 +3,30 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    position: relative;
 }
 
 #list .text-block {
-    text-align: center;
     margin: 10px;
 }
 
-#list img {
+#list :not(#info) .text-block {
+    text-align: center;
+}
+
+.info {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.info p {
+    margin: 8px auto;
+}
+
+#list :not(#info) img {
     max-height: 150px;
     margin: auto 0;
     margin-left: 8%;
-}
-
-#list div:first-child {
-    cursor: pointer;
 }
 
 

@@ -8,6 +8,11 @@
     text-align: left;
 }
 
+#polyhedron {
+    max-width: 100%;
+    cursor: pointer;
+}
+
 .text-block li {
     margin: 10px;
 }

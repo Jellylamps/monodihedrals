@@ -7,7 +7,7 @@ import Processes from "./pages/Processes";
 import List from "./pages/List";
 import Credits from "./pages/Credits";
 import Submission from "./pages/Submission";
-import Info from "./pages/Info";
+import Info from "./components/Info";
 
 export default function App() {
   return (
