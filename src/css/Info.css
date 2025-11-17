@@ -1,10 +1,29 @@
-#info {
+#info, #add-shape {
     text-align: center;
     position: absolute;
     border: 2px solid var(--text);
     border-radius: 10px;
     background: var(--background-trans);
     width: calc(100% - 60px);
+}
+
+#add-shape {
+    margin: auto;
+    top: 100px;
+    width: calc(100% - 120px);
+}
+
+#add-shape button {
+    margin: 0;
+}
+
+#p-img-upload {
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+
+#shape-img {
+    max-width: 90%;
 }
 
 #close {
@@ -31,5 +50,9 @@
 @media only screen and (orientation: landscape) and (min-width: 768px) {
     #info {
         width: 70%;
+    }
+
+    #add-shape {
+        width: calc(40% - 4px);
     }
 }

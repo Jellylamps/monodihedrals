@@ -1,5 +1,5 @@
 import TextBlock from "./TextBlock";
-import "./../css/Info.css"
+import "./../css/Info.css";
 
 const Info = (props) => {
     const data = (
