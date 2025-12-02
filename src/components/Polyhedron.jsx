@@ -5,6 +5,9 @@ import DeleteShape from "./DeleteShape";
 import TextBlock from "./TextBlock";
 
 const Polyhedron = (props) => {
+    const serverURL = "https://server-monodihedrals.onrender.com/";
+    //const serverURL = "http://localhost:3001/";
+
     const [polyhedron, setPolyhedron] = useState(props);
 
     const [displayShape, setDisplayShape] = useState(true);
@@ -50,7 +53,7 @@ const Polyhedron = (props) => {
     const content = (
         <div id="polyhedron" className="always columns">
             <div className="always columns text-block" onClick={props.canPopUp ? openPopUp : ()=>{}}>
-                <img src={"http://localhost:3001/images/"+polyhedron.img} alt={polyhedron.name}/>
+                <img src={serverURL+"images/"+polyhedron.img} alt={polyhedron.name}/>
                 <section className="info">
                     <h2>{polyhedron.name}</h2>
                     <p>Dihedral Angle: {polyhedron.angle}</p>

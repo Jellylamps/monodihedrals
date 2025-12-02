@@ -23,6 +23,7 @@ const List = (props) => {
             const response = await axios.get("https://server-monodihedrals.onrender.com/api/shapes");
             //const response = await axios.get("http://localhost:3001/api/shapes");
             setShapes(response.data);
+            console.log(response.data);
         };
 
         loadShapes();
