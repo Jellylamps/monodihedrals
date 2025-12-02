@@ -2,6 +2,9 @@ import TextBlock from "./TextBlock";
 import "./../css/Info.css";
 
 const Info = (props) => {
+    const serverURL = "https://server-monodihedrals.onrender.com/";
+    //const serverURL = "http://localhost:3001/";
+
     const data = (
         <div className="text-block">
             <h2>Data</h2>
@@ -30,7 +33,7 @@ const Info = (props) => {
         <main id="info">
             <span id="close" onClick={props.closePopUp}>&times;</span>
             <h1>{props.name}</h1>
-            <img className="spotlight" src={props.img} alt={props.name}/>
+            <img className="spotlight" src={`${serverURL}images/${props.img}`} alt={props.name}/>
             <TextBlock content={data} />
             <TextBlock content={families} />
             <TextBlock content={trivia} />

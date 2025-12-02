@@ -6,7 +6,7 @@
     position: relative;
 }
 
-#list .text-block {
+#list .text-block:not(.option) {
     margin: 10px;
 }
 

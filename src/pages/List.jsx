@@ -38,10 +38,10 @@ const List = (props) => {
             <ul id="list">
                 {shapes.map((shape)=>(
                     <Polyhedron key={shape._id}
-                                id={shape._id}
+                                _id={shape._id}
                                 name={shape.name}
-                                img={"https://server-monodihedrals.onrender.com/images/"+shape.img}
-                                //img={"http://localhost:3001/images/"+shape.img}
+                                //img={"https://server-monodihedrals.onrender.com/images/"+shape.img}
+                                img={shape.img}
                                 angle={shape.angle}
                                 symmetry={shape.symmetry}
                                 discovery={shape.discovery}

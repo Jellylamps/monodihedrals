@@ -8,6 +8,21 @@
     text-align: left;
 }
 
+.options {
+    width: fit-content;
+}
+
+.option {
+    width: 28px;
+    height: calc(50% - 58px);
+    margin: 10px;
+    margin-left: 0;
+}
+
+.option h1 {
+    margin: 0;
+}
+
 #polyhedron {
     width: 100%;
     cursor: pointer;

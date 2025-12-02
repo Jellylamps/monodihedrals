@@ -1,4 +1,4 @@
-#info, #add-shape {
+#info, #add-shape, #edit-shape, #delete-shape {
     text-align: center;
     position: absolute;
     border: 2px solid var(--text);
@@ -48,7 +48,7 @@
 
 
 @media only screen and (orientation: landscape) and (min-width: 768px) {
-    #info {
+    #info, #edit-shape, #delete-shape {
         width: 70%;
     }
 

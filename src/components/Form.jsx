@@ -39,7 +39,7 @@ const Form = () => {
         </p>
         <p><textarea name="message" placeholder="description or link" required></textarea></p>
 
-        <button type="submit">Submit</button>
+        <button id="submission-button" type="submit">Submit</button>
 
       </form>
       <span>{result}</span>
