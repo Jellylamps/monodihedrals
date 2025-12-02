@@ -46,6 +46,10 @@ p {
     display: none;
 }
 
+.hide {
+    display: none;
+}
+
 
 @media only screen and (orientation: landscape) and (min-width: 768px) {
     .columns {
